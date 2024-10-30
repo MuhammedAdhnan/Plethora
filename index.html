@@ -1,0 +1,477 @@
+
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Whats New ? </title>
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+	<link href="index.css" rel="stylesheet" type="text/css" >
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<style>
+	*{
+	margin:0;
+	padding:0;
+	}
+	header{
+	height:60px;
+	background:hwb(0 17% 83%);
+	padding:0 50px;
+	}
+	.logo{
+	width:30%;
+	float:left;
+	color:rgb(7, 0, 0);
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:60px;
+	font-size:35px;
+	font-family:sans-serif;
+	}
+	nav{
+	width:68%;
+	float:right;
+	}
+	nav ul{
+	list-style:none;
+	float:right;
+	}
+	nav ul li{
+	display: inline-block;
+	}
+	nav ul li a{
+	text-decoration: none;
+	color:#fff;
+	font-family:sans-serif;
+	font-weight:bold;
+	margin:0 10px;
+	line-height:60px;
+	text-transform:uppercase;
+	}
+	.banner{
+	height:100%;
+	}
+	.banner img{
+	width:100%;
+	height:90vh;
+	}
+	.content{
+	padding:5%;
+	}
+	.content p{
+	font-size:18px;
+	line-height:1.7;
+	font-family:sans-serif;
+	margin-bottom:25px;
+	}
+	footer{
+	background:rgb(36, 34, 34);
+	color:#fff;
+	padding:15px 50px;
+	text-align:center;
+	}
+	   
+	   
+	   @media (max-width: 600px){        
+
+	header {
+	 width: 100%;
+	 height: 100%;
+	 padding: 0;
+	 text-align: center;
+	}
+	.logo {
+	 width: 100%;
+	 float: none;
+	}
+	nav {
+	 width: 100%;
+	 float: none;
+	}
+	nav ul li {
+	 display: block;
+	}
+	nav ul {
+	 float: none;
+	}
+	   }    
+	   ::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+       } 
+	   ::-webkit-scrollbar-thumb {
+    background: #434343;
+    border-radius: 16px;
+	box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+	   }
+	   ::-webkit-scrollbar-track {
+    background: linear-gradient(90deg,#434343,#434343 1px,#111 0,#111);
+        }     
+	.image img:hover{
+		transform: rotate(12deg);
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			Plethora
+		</div>
+		<nav>
+			<ul>
+				<li>
+					<a href="https://www.youtube.com/channel/UCWWDImjDg-91KBoHO2ZkCUQ" target="_blank">youtube</a>
+				</li>
+				<li>
+					<a href="feedback.html"target="_blank">feedback</a>
+				</li>
+				<li>
+					<a href="application details.html"target="_blank">App</a>
+				</li>
+				<li>
+					<a href="post.html"target="_blank">post</a>
+				</li>
+				<li>
+					<a href="contact.html"target="_blank">contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+    <div class="slider">
+
+		<div id="moreimg">
+		  <img src="img/e.jpg">
+		</div>
+	
+	  </div>
+	
+	  <script>
+	
+		var images = ['img/a.jpg', 'img/b.jpg', 'img/c.jpg', 'img/d.jpg', 'img/e.jpg'];
+	
+		var x = 0;
+	
+		var imgs = document.getElementById('moreimg');
+	
+		setInterval(slider, 2000);
+	
+	
+		function slider() {
+	
+		  if (x < images.length) {
+			x = x + 1;
+		  } else {
+			x = 1;
+		  }
+	
+	
+		  imgs.innerHTML = "<img src=" + images[x - 1] + ">";
+	
+	
+		}
+	
+	
+	  </script>
+	
+	
+	  <style type="text/css">
+		.slider {
+		  width: 90%;
+		  height: 500px;
+		  margin: 20px auto;
+		  box-sizing: border-box;
+		  overflow: hidden;
+		  box-shadow: 5px 5px 10px grey;
+	
+		}
+	
+		 img {
+		  width: 100%;
+		  height: 100%;
+		  animation: ani 2s linear;
+	
+		}
+	
+		@keyframes ani {
+		  0% {
+			transform: scale(1.2);
+		  }
+		  10% {
+			transform: scale(1);
+		  }
+		  100% {
+			transform: scale(1);
+		  }
+		}
+	  </style>
+	  <br>
+	  <br>
+	  <br>
+	  <footer><p style="font-family:Verdana;"><b>ANIMALS</b></p></footer>
+	  <br>
+	<div class="content">
+	    <div class="fh5co-explore">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-push-5 to-animate-2">
+						<img class="img-responsive" width="700" height="300" src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2023/12/27143204/electric-blue-tarantula.jpg" alt="work">
+					</div>
+					<div class="col-md-4 col-md-pull-8 to-animate-2">
+						<div class="mt">
+							<h3 style="text-align: center;">A new electric-blue tarantula species is the first to be found in Thailand’s mangroves</h3>
+							<p>A new electric-blue tarantula species has been described by scientists in Thailand, making it the first known tarantula species from Thai mangroves. The spider’s vivid blue coloration is created not by pigments but by nanostructures on the tarantula’s hairs that manipulate light and produce an iridescent effect.</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="fh5co-explore">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-push-5 to-animate-2">
+						<img class="img-responsive" src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2023/12/27143628/Rhampholeon-beraduccii.jpg" alt="work">
+					</div>
+					<div class="col-md-4 col-md-pull-8 to-animate-2">
+						<div class="mt">
+							<h2 style="text-align: center;">Six newly described chameleon species reflect Tanzania’s Eastern Arc Mountains’ fragility and richness</h2>
+							<p>Six new species of tiny, threatened pygmy chameleons have been discovered in Tanzania’s Eastern Arc Mountains, a biodiversity hotspot where rapid deforestation threatens endemic wildlife. The chameleons, which can fit on a thumb, reflect the exceptional yet fragile diversity of the mountains’ isolated forests that scientists are still documenting.</p>
+							<br>
+							<p>Agricultural expansion driven by population growth and government initiatives to increase food production continue to drive montane forest loss at an alarming rate, shrinking the habitat these new chameleon species depend on. While some forests have been upgraded to higher protection status recently, lack of enforcement and resources enable ongoing encroachment.</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="fh5co-explore">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-push-5 to-animate-2">
+						<img class="img-responsive" src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2023/08/29152832/harrison-ford-snake-6.jpg" alt="work">
+					</div>
+					<div class="col-md-4 col-md-pull-8 to-animate-2">
+						<div class="mt">
+							<h2 style="text-align: center;">It had to be a snake: New species from Peru named after Harrison Ford</h2>
+							<p>Scientists have described a new-to-science snake species from Peru’s Otishi National Park and named it after the actor Harrison Ford for his conservation advocacy. The pale yellowish-brown snake with black blotches was found in high-elevation wetlands and identified using genetic techniques. Satellite data and imagery show several areas of forest loss throughout the park, which appear to have been caused by natural landslides. Still, some bear the hallmarks of human-caused clearing likely linked to coca cultivation and drug trafficking.</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="fh5co-explore">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-push-5 to-animate-2">
+						<img class="img-responsive" src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2023/02/21182342/Gecko2-1.png" alt="work">
+					</div>
+					<div class="col-md-4 col-md-pull-8 to-animate-2">
+						<div class="mt">
+							<h2 style="text-align: center;">New gecko species from Timor-Leste hints at island’s unknown diversity</h2>
+							<p>Scientists have described a new species of bent-toed gecko from a remote cave in Timor-Leste. The new species was confirmed through DNA analysis and further examination of collected specimens and is named after the young nation’s first national park, Nino Konis Santana National Park. Timor-Leste, in Southeast Asia’s Wallacea region, has high levels of biodiversity, including numerous endemic species of birds and other animals. Continued research and exploration in Timor-Leste is expected to uncover many more new plant and animal species, possibly from the same cave where the new gecko was found.</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="fh5co-explore">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-push-5 to-animate-2">
+						<img class="img-responsive" src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2023/12/27144931/two-new-pygmy-squids-.jpg" alt="work">
+					</div>
+					<div class="col-md-4 col-md-pull-8 to-animate-2">
+						<div class="mt">
+							<h2 style="text-align: center;">Two new pygmy squid species found on Japanese coral</h2>
+							<p>Researchers found two new species of tiny, reddish pygmy squid in the biodiverse coral reefs and seagrass beds near the Japanese island of Okinawa. The Ryukyuan pygmy squid (Idiosepius kijimuna) and Hannan’s Pygmy Squid (Kodama jujutsu), which measure less than 12 millimeters (0.5 inches), are nocturnal and difficult to spot, but were documented through collaboration between scientists and underwater photographers. Their whimsical names connect them to Japanese folktales, matching their elusive nature and coastal forest habitats, which are threatened by climate change and human activity.</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="fh5co-explore">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-push-5 to-animate-2">
+						<img class="img-responsive" src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2023/12/27145855/silent-frog.jpg" alt="work">
+					</div>
+					<div class="col-md-4 col-md-pull-8 to-animate-2">
+						<div class="mt">
+							<h2 style="text-align: center;">New silent frog species described from Tanzania’s ‘sky island’ forests</h2>
+							<p>Scientists have described a new-to-science species of frog from Tanzania’s Ukaguru Mountains with a unique trait: it’s silent. The males of this species have tiny spines on their throats, which may serve as a means of species recognition for the females.</p>
+
+							<p>	Researchers encountered the species during an expedition in search of another species, the elusive Churamiti maridadi tree toad, which has only been spotted twice in the wild and is feared to be extinct. The Ukaguru Mountains have a high degree of endemism, and describing this new species highlights the vast amount of knowledge still to be gained about this biodiversity-rich area.
+							</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="fh5co-explore">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-push-5 to-animate-2">
+						<img class="img-responsive" src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2023/02/21135415/Nautilus-vitiensis-Nautilus-vanuatuensis.jpg" alt="work">
+					</div>
+					<div class="col-md-4 col-md-pull-8 to-animate-2">
+						<div class="mt">
+							<h2 style="text-align: center;">‘They’re everywhere out there’: Three new nautilus species described</h2>
+							<p>Researchers have described three new species of nautilus found in the Coral Sea and the South Pacific. The three species differ in genetic structure, shell size and coloration, and geographic location. Scientists generally know little about nautiluses but are working to fill in the data gaps to understand how to protect them. Nautiluses are highly threatened by the shell trade, as well as pollution and the impacts of climate change.</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="fh5co-explore">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-push-5 to-animate-2">
+						<img class="img-responsive" src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2023/02/23195729/sibon_canopy1_photo_Alejandro_Arteaga.jpeg" alt="work">
+					</div>
+					<div class="col-md-4 col-md-pull-8 to-animate-2">
+						<div class="mt">
+							<h2 style="text-align: center;">Newly described DiCaprio’s snake and others threatened by mining in Ecuador and Panama</h2>
+							<p>Researchers have described five new species of snail-eating snakes from the upper Amazon Rainforest in Ecuador and Colombia and the Chocó-Darién forests of Panama. Three of the new species were named by actor Leonardo DiCaprio, conservationist Brian Sheth, and the NGO Nature and Culture International to raise awareness about the threats these snakes face due to mining and deforestation.</p>
+							 <br>
+							 <p>Ecuador and Colombia saw an increase in illegal gold mining along rivers and streams during the COVID-19 pandemic, which may have affected populations of these fragile snakes and has led to conflict and division within communities. Snail-eating snakes are arboreal and depend on wet environments to survive, so deforestation and mining pollution, including illegal gold mining, affect both the snakes and the snails and slugs that they rely on for food.</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="fh5co-explore">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-push-5 to-animate-2">
+						<img class="img-responsive" src="https://cdn.britannica.com/16/234216-050-C66F8665/beagle-hound-dog.jpg" alt="work">
+					</div>
+					<div class="col-md-4 col-md-pull-8 to-animate-2">
+						<div class="mt">
+							<h2 style="text-align: center;">Dogs’ sense of smell is about 100, 000 times stronger than humans’. However, they have only one-sixth our number of taste buds.</h2>
+							<p>Dogs' sense of smell overpowers our own by orders of magnitude—it's 10,000 to 100,000 times as acute, scientists say. "Let's suppose they're just 10,000 times better," says James Walker, former director of the Sensory Research Institute at Florida State University, who, with several colleagues, came up with that jaw-dropping estimate during a rigorously designed, oft-cited study. "If you make the analogy to vision, what you and I can see at a third of a mile, a dog could see more than 3,000 miles away and still see as well."</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="fh5co-explore">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-push-5 to-animate-2">
+						<img class="img-responsive" src="https://www.pbs.org/wnet/nature/files/2020/12/Untitled-1-1280x720.png" alt="work">
+					</div>
+					<div class="col-md-4 col-md-pull-8 to-animate-2">
+						<div class="mt">
+							<h2 style="text-align: center;">The male gentoo and Adelie penguins “propose” to females by giving them a pebble</h2>
+							<p><span class="hgKElc"><b>MALE PENGUINS PROPOSE TO FEMALES BY GIVING THEM A PEBBLE Male gentoo penguins</b> look for the smoothest, shiniest <b>pebble</b> to present to <b>females</b> of their choice. If the <b>female</b> accepts, she takes the <b>pebble</b> and places <b>it</b> in her nest, accepting the <b>male</b> as her mate.</span></p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="tour-button", style="text-align: center;">
+			<a href="Plants.html" class="btn btn-common">Next Page</a>
+		 </div>
+		 <style>
+.action .btn-common {
+    margin-top: 55px;
+    float:right;
+}
+.btn-common {
+    font-size: 14px;
+    color: #000000;
+    border: 1px solid #0099ae;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 10px 25px;
+	text-align:center;
+	justify-content: center;
+    align-items: center;
+}
+		 </style> 
+		 <br>
+		</div>
+	<footer class="footer-distributed">
+ 
+		<div class="footer-left">
+ 
+		<h3>Plethora<span>.com</span></h3>
+ 
+		<p class="footer-links">
+		<a href="">Home</a>
+	·
+		<a href="post.html">Blog</a>
+	·
+		<a href="contact.html">About</a>
+	·
+		<a href="post.html">Faq</a>
+	·
+		<a href="contact.html">Contact</a>
+		</p>
+ 
+		<p class="footer-company-name">Plethora &copy; 2023</p>
+		</div>
+ 
+		<div class="footer-center">
+ 
+		<div>
+		<i class="fa fa-map-marker"></i>
+		<p><span></span>UAE , AJMAN</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-phone"></i>
+		<p>+971553314376</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-envelope"></i>
+		<p><a href="thepsychopanda7@gmail.com">plethoraenough@gmail.com</a></p>
+		</div>
+ 
+		</div>
+ 
+		<div class="footer-right">
+ 
+		<p class="footer-company-about">
+		<span>About the company</span>
+	Plethora is a lerning platform that offers a wide variety of educational resources, such as online courses, tutorials, and quizzes, to help users expand their knowledge and skills in different subject areas. The platform is designed to be accessible and user-friendly, with a simple navigation system and a variety of interactive tools and features. &copy; to know more
+		</p> 
+		</div>
+ 
+		</footer>
+		<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+	(function(){
+	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+	s1.async=true;
+	s1.src='https://embed.tawk.to/600c3f2ea9a34e36b96f89fc/1esntdk2v';
+	s1.charset='UTF-8';
+	s1.setAttribute('crossorigin','*');
+	s0.parentNode.insertBefore(s1,s0);
+	})();
+	</script>
+	<!--End of Tawk.to Script-->
+
+	<button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
